@@ -6,7 +6,7 @@ from scipy import ndimage, misc
 import numpy as np
 from pathlib import Path
 
-path = Path("./samples_Adversarial/")
+path = Path("./samples_Noise/")
 
 for image in path.glob("*.png"):
     img = Image.open(image)
